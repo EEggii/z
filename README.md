@@ -1,28 +1,9 @@
-# Z
+# z
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
+### Restarant List
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<code>'반포식스', '맥도날드', '얼룩도야지', '코다리냉면', '제일제면소', 
+                                  '한우국밥', '홍대칼족', '진짜돼지', '사보텐', '도원참치', '센트럴차이나', 
+                                  '매드후라이드치킨', '양재정육식당', '라멘천하', '도니족발', '조선육회', 
+                                  '이쿠', '코코이찌방야', '하코야', '소호정', '153포인트부대찌개', 
+                                  '자니로켓', '서호돈까스', '홍대돈부리'</code>
