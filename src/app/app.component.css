@@ -1,0 +1,33 @@
+.container {
+  color: white;
+  height: 100vh;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.content {
+  width: 210px;
+  height: 412px;
+}
+
+button {
+  width: 100%;
+  font-size: 24px;
+  height: 48px;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+button:active {
+  color: black;
+  background-color: white;
+}
