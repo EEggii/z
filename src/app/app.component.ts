@@ -21,6 +21,10 @@ export class AppComponent {
 
   }
 
+  ngAfterViewInit() {
+    window.scrollTo(0,1);
+  }
+
   shuffle(list: Array<String>) {
     this.shuffling = true;
     for (let i = list.length - 1; i > 0 ; i--) {
