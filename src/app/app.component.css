@@ -26,11 +26,13 @@ button {
   border: 2px solid white;
   outline: none;
   margin-bottom: 30px;
+
 }
 
 button:active {
   color: black;
   background-color: white;
+  -webkit-tap-highlight-color: white;
 }
 
 .nearBy {
