@@ -1,12 +1,18 @@
 <div class="container">
   <div class="content">
-    <h2>
+    <h2 [className]="locate(this.theChosenOne)">
       {{ !clicked ? "점심" : this.theChosenOne}}
     </h2>
 
     <button [disabled]="isShuffling()" (click)="choice()">선택</button>
 
     <h3 [hidden]="!clicked">나머지 5개</h3>
-    <p [hidden]="!clicked" *ngFor="let other of others">{{other}}</p>
+    <p [className]="locate(other)" [hidden]="!clicked" *ngFor="let other of others">{{other}}</p>
+    
   </div>
+  <br />
+  <p class="index"><span>근처</span>
+    <span [className]="'laStreet'">라스트리트</span><br />
+    <span [className]="'avenueFranc'">아브뉴프랑</span>
+    <span [className]="'uSpace'">유스페이스</span></p>
 </div>

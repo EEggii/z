@@ -8,6 +8,7 @@
   -webkit-justify-content: center;
           justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .content {
@@ -30,4 +31,26 @@ button {
 button:active {
   color: black;
   background-color: white;
+}
+
+.nearBy {
+  color: white;
+}
+
+.laStreet {
+  color: #8ce99a;
+}
+
+.avenueFranc {
+  color: #72c3fc;
+}
+
+.uSpace {
+  color: #ffc078;
+}
+
+.index {
+  width: 210px;
+  border-top: 1px solid white;
+  padding-top: 7px;
 }
